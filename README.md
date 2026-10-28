@@ -9,6 +9,9 @@ canvas, same start.ng green palette. No redesign, all motion.
   they squash). "Good vibes." stays plain like the original site.
 - **Minifigures** — SVG minifigs flanking the title, waving, leaning, hopping.
 - **Bricks** — the feature banner's brick stack rises on load and lifts on hover.
+- **Game thumbnails** — every featured game gets its own bespoke SVG scene in
+  the LEGO palette (hangout, brick hunt, begu tower, ninja, briefcase,
+  tetris, Zuma rock, interlock), instead of a generic tile.
 - Everything respects `prefers-reduced-motion`, day and night mode, desktop
   and mobile.
 

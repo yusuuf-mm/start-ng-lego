@@ -4,6 +4,7 @@ import { useState, type MouseEvent } from 'react'
 import { ArrowUpRight, ChevronDown, Moon, Play, Share2, Sun } from 'lucide-react'
 import { LegoMinifig } from '@/components/lego-minifig'
 import { LegoRing, RingDefs } from '@/components/lego-ring'
+import { GameThumb } from '@/components/game-thumb'
 
 const featuredGames = [
   { title: 'The Hangout', creator: 'start.ng', meta: 'social / chill', art: 'hangout', featured: true },
@@ -21,7 +22,7 @@ const faqs = ['What is start.ng?', 'Is it free?', 'How do I publish my game?', '
 
 function GameCard({ game }: { game: typeof featuredGames[number] }) {
   return <article className={`real-game-card ${game.featured ? 'featured-game' : ''}`}>
-    <div className={`thumbnail thumb-${game.art}`}><span className="thumb-label">{game.title}</span><span className="thumb-studs" aria-hidden="true" /></div>
+    <div className={`thumbnail thumb-${game.art}`} aria-hidden="true"><GameThumb art={game.art} /></div>
     <div className="real-game-info"><div><h3>{game.title}</h3><p>{game.creator}</p></div><span className="game-arrow">↗</span></div>
     <span className="game-meta">{game.meta}</span>
   </article>
