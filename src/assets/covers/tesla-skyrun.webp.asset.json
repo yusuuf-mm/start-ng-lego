@@ -1,11 +1,11 @@
-{
-  "version": 1,
-  "asset_id": "dfb01a47-e7cd-41c6-b031-3d4a9f92f92d",
-  "project_id": "f6441c52-105f-4130-9a3a-b59dd97f8000",
-  "url": "/__l5e/assets-v1/dfb01a47-e7cd-41c6-b031-3d4a9f92f92d/tesla-skyrun.webp",
-  "r2_key": "a/v1/f6441c52-105f-4130-9a3a-b59dd97f8000/dfb01a47-e7cd-41c6-b031-3d4a9f92f92d/tesla-skyrun.webp",
-  "original_filename": "tesla-skyrun.webp",
-  "size": 27046,
-  "content_type": "image/webp",
-  "created_at": "2026-11-07T02:01:37Z"
+﻿{
+    "version":  1,
+    "asset_id":  "dfb01a47-e7cd-41c6-b031-3d4a9f92f92d",
+    "project_id":  "f6441c52-105f-4130-9a3a-b59dd97f8000",
+    "url":  "/assets/covers/tesla-skyrun.webp",
+    "r2_key":  "a/v1/f6441c52-105f-4130-9a3a-b59dd97f8000/dfb01a47-e7cd-41c6-b031-3d4a9f92f92d/tesla-skyrun.webp",
+    "original_filename":  "tesla-skyrun.webp",
+    "size":  27046,
+    "content_type":  "image/webp",
+    "created_at":  "2026-11-07T02:01:37Z"
 }
