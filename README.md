@@ -1,37 +1,24 @@
-# start.ng — LEGO play edition
+# Brick Built Games
 
-The start.ng v0 landing page with a playful LEGO layer layered on top of its
-existing identity — same "Good vibes. Good games." hero, same warm cream
-canvas, same start.ng green palette. No redesign, all motion.
+Imported website: https://preview--brick-built-start-page.lovable.app/?__lovable_sha=62139e75#games
 
-- **Hero** — "Good games." sits on an extruded 3D LEGO brick plate; the two
-  "oo" are animated LEGO-logo rings in warm cream + site green (click them —
-  they squash). "Good vibes." stays plain like the original site.
-- **Minifigures** — SVG minifigs flanking the title, waving, leaning, hopping.
-- **Bricks** — the feature banner's brick stack rises on load and lifts on hover.
-- **Game thumbnails** — every featured game gets its own bespoke SVG scene in
-  the LEGO palette (hangout, brick hunt, begu tower, ninja, briefcase,
-  tetris, Zuma rock, interlock), instead of a generic tile.
-- Everything respects `prefers-reduced-motion`, day and night mode, desktop
-  and mobile.
+This project was built with [Lovable](https://lovable.dev).
 
-Built on Next.js 16 (App Router, Turbopack) + React 19 + Tailwind CSS v4.
+## Build with Lovable
 
-## Getting started
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/f6441c52-105f-4130-9a3a-b59dd97f8000).
 
-```bash
-pnpm install
-pnpm dev        # http://localhost:3000
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
 ```
-
-## Build
-
-```bash
-pnpm build      # production build (Turbopack)
-pnpm start      # serve the production build
-```
-
-## Deploy on Vercel
-
-The project deploys as-is: import the repository into Vercel, and the Next.js
-preset handles the rest. No environment variables required.

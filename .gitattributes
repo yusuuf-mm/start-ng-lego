@@ -1,7 +1,0 @@
-# Normalize line endings: store LF in the repository
-* text=auto eol=lf
-
-# Binary assets
-*.png binary
-*.jpg binary
-*.svg -text
