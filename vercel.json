@@ -1,4 +1,14 @@
 {
+  "framework": null,
   "buildCommand": "vite build",
-  "framework": null
+  "outputDirectory": "dist/client",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/server/**",
+      "memory": 512
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
 }
